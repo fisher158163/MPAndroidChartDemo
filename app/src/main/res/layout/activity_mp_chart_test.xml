@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.guangzhou.mpandroidchartdemo.MpChartTestActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="金融图表Demo测试"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/btnEnterPieChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="进入圆饼图"
+        />
+
+    <Button
+        android:id="@+id/btnEnterHistogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="进入矩形图"
+        />
+
+    <Button
+        android:id="@+id/btnEnterHistogramOur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="自写进入矩形图"
+        />
+</LinearLayout>
